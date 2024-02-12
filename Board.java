@@ -28,6 +28,9 @@ public class BoardMark2 {
                System.out.println("===================================================");
                Thread.sleep(1000);
         }   
+    }else{
+          System.out.println("Can't type number under zero!");    
+          System.exit(0);
     }
   }
     public void printBoard()throws InterruptedException {
